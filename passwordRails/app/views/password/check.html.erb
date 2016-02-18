@@ -1,0 +1,16 @@
+<img src="https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/lock-512.png"/>
+</br>
+User: <%= @userid %>
+</br>
+Password: <%= @password %>
+</br>
+<%= @id_password_alert %> <%= @password_equals_alert %> <%= @valid %> <%= @userid_cred %> <%= @password_cred %>
+
+
+<form action="/check_password" method="check">
+<input type = "text" name="userid" required/>
+<input type = "text" name="password" required/>
+<input type = "submit" value="submit"/>
+</form>
+
+<!--pattern="[A-Za-z!#$]{6-20}"-->
