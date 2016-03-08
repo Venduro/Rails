@@ -1,5 +1,5 @@
 # Rails
-Using the MVC architectural pattern in rails to build a password checker
+Used the MVC architectural pattern in rails to build a password checker
 Check the controller and the view for code.
 -----------------------------------------------------------------------------------------------------------------------------------------
 
